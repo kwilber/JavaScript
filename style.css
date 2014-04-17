@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+#main_container {
+	margin: 10px auto;
+	width: 600px;
+}
+table {
+  margin: 0px auto;
+   
+}
+h1 {
+  
+
+  font-size: 50px;
+  
+}
+h1, h2{
+	text-align: center;
+	color: #F00;
+	}
+
+
+
+#topleft {
+	border-radius: 15px 0px 0px 0px;
+	
+	}
+#topright{
+	border-radius: 0px 15px 0px 0px;
+	}	
+#bottomleft{
+	border-radius: 0px 0px 0px 15px;
+	
+	}
+#bottomright{
+	border-radius: 0px 0px 15px 0px;
+	}
+.cells {
+	
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+  box-shadow: 5px 5px 2px #888888;
+  color:#0FC;
+  font-size: 56px;
+}
+
+.hover {
+  background-color: #999;
+}
+
+.x {
+	text-align:center;
+ 	color:#e01;
+}
+
+.o {
+	text-align:center;
+	color:#00F;
+}
